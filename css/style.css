@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+html{
+        scroll-behavior: smooth;
+
+}
+
+.text-format{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938}
+.h4-format{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #282938;}
+.h3-format{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;}
+.h2-format{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+    text-align: center;
+    padding-bottom: 48px;
+padding-top: 128px;}
+.flex-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;}
+body{
+    font-family: 'Poppins', sans-serif;
+    }
+img{
+    max-width: 100%;
+    }
+i{
+    display: inline-block;}
+span{
+    display: inline-block;}
+.nav-bar__list a:hover{
+    color: white;}
+li a{
+    text-decoration: none;
+    color: #BBBBCB;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 500;}
+ul{
+    list-style: none;}
+.container{
+    width: 80%;
+    margin: auto;}
+/* nav{
+    position: fixed;
+    width: 100%;} */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #1C1E53;
+    padding: 16px 0;
+
+    }
+.nav-bar__list{
+    text-decoration: none;}
+.nav-bar__logo{
+    max-width: 547px;}
+.contact-us-btn a:hover{
+    color: wheat;
+}
+.contact-us-btn{
+padding: 16px 0 16px 20px;
+margin-left: 18px;}
+
+.contact-us-btn  a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 41px;
+    border: 2px #F4F6FC33 solid;
+    padding: 16px 48px;
+    background-color: transparent;}
+.active{
+    color: white;}
+.about{
+    padding-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center}
+.about__img{
+    /* width: 80%; */
+    max-width: 1280px;}
+.about__container{
+    padding-bottom: 128px;}
+.about__caption h1{
+    padding: 8px 0 31px 0;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;}
+.about__caption ,.about__img{
+    width: 50%;
+}
+
+.who-we-are{
+    padding-top: 80px;
+    background-color: #F4F5F5;}
+.who-we-are__container{
+    width: 90%;
+    margin: auto;}
+.who-we-are__container h2{
+    padding-bottom: 8px;}
+.who-we-are__container p{
+    padding: 8px 40px 40px 0;
+}
+.goal{
+    width: 50%;
+    padding-bottom: 25px;}
+.improvement{
+    width: 50%;}
+.who-we-are__img{
+    padding-top: 40px;}
+
+.process{
+    padding-bottom: 128px ;}
+
+.dot{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #2405F2;}
+.process__item__header{
+    display: flex;}
+.process__item{
+    width: 25%;}
+.process__item span{
+    color: #2405F2;
+    opacity: 0.5;
+    margin-left: 24px;}
+.process__item h4{
+    padding: 32px 0 8px 0;}
+.mission-vision{
+    background-color: #EEF4FA;}
+.span-pad{
+    padding: 0 0 16px 0;
+color: #282938;}
+.mission-container{
+    padding: 128px 0 48px 0;}
+.mission__caption{
+    width: 50%;}
+.mission__img{
+    width: 50%;
+    max-width: 515px;}
+.vision__img{
+    width: 50%;
+    max-width: 514px;
+}
+.vision__caption{
+    width: 50%;}
+.vision-container{
+    padding: 48px 0 128px 0;}
+.benefits__pad{
+    width: 33.3%;}
+.benefits__container{
+    width: 100%;}
+    
+.benefits__item{
+    background-color: #F4F6FC;
+    padding: 48px 45px;
+    margin-right: 32px;}
+.beneftis__logos__caption{
+    width: 30%;
+}
+.beneftis__logos{
+    padding: 48px 0 128px 0;
+    padding-right: 32px;}
+.beneftis__logos__img{
+    width: 70%;
+    max-width: 1015px;
+    max-height: 32px;
+    }
+.benefits__item i{
+    width: 32px;
+    height: 32px;
+    padding-top: 2px;}
+.benefits__item h5{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 12px;}
+.beneftis__logos h6{
+    font-size: 38px;
+    font-weight: 600;
+    line-height:56px;
+    color: #282938;}
+.team__item{
+    background-color: white;
+    padding: 48px 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.team{
+    background-color: #F4F6FC;
+    padding-bottom: 128px;
+}
+.team__item__pad{
+    width: 25%;
+    padding: 0 16px;
+}
+.team__item__caption{
+    text-align: center;
+}
+.team__item__img img{
+    width: 100%;
+max-width: 168px;
+overflow: hidden;
+}
+.team__item__caption h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #1D2130;}
+.team__item__caption span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D2130;}
+/* .team-container{
+    justify-content: space-between !important;
+
+} */
+.talk{
+        background-color: #1C1E53;
+    }
+.talk-container{
+padding: 96px 0;
+color: white;}
+.talk__caption h2{
+    color: white;
+}
+/* .talk-caption{
+    width: 80%;
+} */
+.talk__logo-caption{
+    width: 50%;
+    flex-grow: 0.5;
+}
+.talk__caption ,.talk__logo-caption{
+    width: 50%;
+}
+
+.talk-caption p{
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 28px;
+    color: #F4F6FC;
+    padding-bottom: 28px;
+}
+.talk-caption{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.talk__caption__icons i{
+    color: white;
+    padding-right: 27px;
+    cursor: pointer;
+}
+.talk__caption__icons{
+    display: flex;
+}
+footer a:hover{
+    background-color: gainsboro;
+}
+footer{
+    background-color: #FFFFFF;
+    padding: 32px 0;
+    color: #282938;
+}
+footer a{
+    font-size: 16px;
+    color: #282938;
+}
+.footer__copy-right{
+    width: 30%;
+}
+.footer__items{
+    width: 65%;
+    margin-right: 0;
+}
+.talk .container{
+position: relative;
+}
+.email,.call
+{
+    width: 50%;
+}
+.talk__logo__contact{
+    background-color: #FCD980;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 37px;
+}
+.talk__logo__contact h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+    padding-top: 15px;
+}
+.talk__logo__contact span{
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: #282938;
+padding: 0 29px 16px 0px;
+}
+
+/* @media(max-width:575px){
+    .about__container,.footer-container,.footer__list  ,
+    .footer__items,.talk__logo__contact,.talk-caption ,.team-container ,
+    .beneftis__logos,.process-container ,.benefits-container ,.vision-container ,
+    .who-we-are__container , .mission-container{
+        flex-wrap: wrap;
+    }
+    .about__caption ,.talk__logo-caption ,.talk__caption ,
+     .team__item__pad,.benefits__pad,.about__img ,.goal ,
+     .vision__img ,.improvement ,.vision__caption ,
+     .mission__caption ,.mission__img{
+        width: 100%;
+    }
+    .process__item {
+        width: 50%;
+    }
+} */
+ @media(max-width:1200px){
+    .team__item__pad{
+    width: 33.3%;
+    padding-top: 20px;
+    margin: auto;
+    }
+    .benefits__pad{
+        width: 50%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+ }
+   @media(max-width:992px){
+    .about__img ,.about__caption {
+        width: 50%;;
+    }
+    .goal,.improvement,.mission__caption,
+    .mission__img,.vision__img,
+    .vision__caption
+    {
+        width: 100%;
+    }
+    .process__item{
+    width: 50%;
+    }
+    .vision__caption{
+        order: -1;
+    }
+   .mission__img,.vision__img 
+   {
+    margin: auto;
+   }
+    h1{
+        font-size: 44px !important;
+        line-height: 44px !important;
+    }
+    .benefits__pad{
+        width: 50%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .beneftis__logos__img{
+        width: 100%;
+    }
+    .team__item__pad{
+        width: 50%;
+        padding-top: 20px;
+    }
+    .team__item__img,.contact-us-btn
+    {
+        margin: auto;
+    }
+    .footer__copy-right{
+    width: 15%;}
+    .footer__items{
+    width: 85%;}
+   }
+    
+    /* .talk__caption ,.talk__logo-caption{
+    width: 100%;
+    } */
+
+ 
+@media(max-width:768px){
+
+    .about__img , .goal ,.about__caption ,.improvement {
+        width: 100%;
+
+    }
+    .process__item,.benefits__pad{
+        width: 100%;
+        text-align: center;
+    }
+    .team__item__pad{
+    width: 100%;
+    /* padding-top: 20px; */
+    }
+    .team__item__img
+    {
+        margin: auto;
+    }
+    .email,.call
+    {
+        width: 100%;
+    }
+    .talk__caption{
+        padding-bottom: 50px;
+    }
+    .talk__caption__icons{
+        padding-bottom: 50px;
+    }
+    .talk-logo{
+        padding-bottom: 120px;
+    }
+    .footer__list{
+    flex-direction: column;
+    flex-grow: 1;}
+}
